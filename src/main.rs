@@ -11,5 +11,5 @@ use ch01_hello_world as hello_world;
 fn main() {
     // hello_world::run();
     // list::run();
-    color::run();
+    // color::run();
 }
