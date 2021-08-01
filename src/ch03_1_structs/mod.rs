@@ -20,15 +20,15 @@ enum Color {
 
 // 1
 fn rect_area(rectangle: Rectangle) -> f32 {
-    let Point {x: x1, y: y1} = rectangle.top_left;
-    let Point {x: x2, y: y2} = rectangle.bottom_right;
+    let Point { x: x1, y: y1 } = rectangle.top_left;
+    let Point { x: x2, y: y2 } = rectangle.bottom_right;
 
     (x2 - x1) * (y1 - y2)
 }
 
 // 2
 fn square(point: Point, side: f32) -> Rectangle {
-    let Point {x, y} = point;
+    let Point { x, y } = point;
     let top_left = Point { x: x, y: y + side };
     let bottom_right = Point { x: x + side, y: y };
 
