@@ -22,7 +22,6 @@ pub fn run() {
         print!("{} ", item as u8);
     }
 
-   
     // generate alphabet
     let mut alpha: Vec<char> = Vec::new();
 
@@ -31,11 +30,9 @@ pub fn run() {
     }
     println!("\n\nalphabet:\n {:?}", alpha);
 
-
     // generate aplhabet 2
     let alpha = (0..26).map(|i| (b'a' + i) as char).collect::<Vec<char>>();
     println!("\n\nalphabet2:\n {:?}", alpha);
-
 
     //------
     println!("\n\n");
@@ -72,5 +69,4 @@ pub fn run() {
     println!("size of `i` in bytes: {}", std::mem::size_of_val(&i));
     println!("size of `f` in bytes: {}", std::mem::size_of_val(&f));
     println!("size of `h` in bytes: {}", std::mem::size_of_val(&h));
-
 }
