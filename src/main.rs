@@ -7,6 +7,7 @@ mod ch02_2_matrix;
 mod ch03_1_structs;
 mod ch05_types;
 mod ch08_3_fizzbuzz;
+mod ch08_5_1_3_pointers;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -15,6 +16,7 @@ use ch02_2_matrix as matrix;
 use ch03_1_structs as structs;
 use ch05_types as types;
 use ch08_3_fizzbuzz as fizzbuzz;
+use ch08_5_1_3_pointers as pointers;
 
 fn main() {
     // hello_world::run();
@@ -23,5 +25,6 @@ fn main() {
     // matrix::run();
     // structs::run();
     // types::run();
-    fizzbuzz::run();
+    // fizzbuzz::run();
+    pointers::run();
 }
