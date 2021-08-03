@@ -13,6 +13,7 @@ mod ch09_2_2_as_input;
 mod ch09_2_6_2_sti;
 mod ch09_3_hof;
 mod ch10_02_struct_visibility;
+mod ch13_01_dead_code;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -27,6 +28,7 @@ use ch09_2_2_as_input as as_input;
 use ch09_2_6_2_sti as sti;
 use ch09_3_hof as hof;
 use ch10_02_struct_visibility as sv;
+use ch13_01_dead_code as dead_code;
 
 fn main() {
     // hello_world::run();
@@ -41,5 +43,6 @@ fn main() {
     // as_input::run();
     // sti::run();
     // hof::run();
-    sv::run();
+    // sv::run();
+    dead_code::run();
 }

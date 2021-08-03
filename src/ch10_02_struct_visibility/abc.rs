@@ -5,8 +5,6 @@ pub struct Abc<T> {
 
 impl<T> Abc<T> {
     pub fn new(contents: T) -> Abc<T> {
-        Abc {
-            contents,
-        }
+        Abc { contents }
     }
 }

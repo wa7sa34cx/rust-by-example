@@ -17,7 +17,7 @@ pub fn run() {
         .fold(0, |acc, n_squared| acc + n_squared); // Sum them
 
     println!("sum: {}", sum_of_squared_odd_numbers);
-    
+
     println!();
     println!("{}", 0 % 2);
     println!("{}", 1 % 2);
