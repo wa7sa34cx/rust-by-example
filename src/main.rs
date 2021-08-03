@@ -11,6 +11,7 @@ mod ch08_5_1_3_pointers;
 mod ch09_2_1_capturing;
 mod ch09_2_2_as_input;
 mod ch09_2_6_2_sti;
+mod ch09_3_hof;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -23,6 +24,7 @@ use ch08_5_1_3_pointers as pointers;
 use ch09_2_1_capturing as capturing;
 use ch09_2_2_as_input as as_input;
 use ch09_2_6_2_sti as sti;
+use ch09_3_hof as hof;
 
 fn main() {
     // hello_world::run();
@@ -35,5 +37,6 @@ fn main() {
     // pointers::run();
     // capturing::run();
     // as_input::run();
-    sti::run();
+    // sti::run();
+    hof::run();
 }

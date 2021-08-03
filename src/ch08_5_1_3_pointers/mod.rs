@@ -14,7 +14,7 @@ pub fn run() {
             // add anything to it.
             *m += 10;
             println!("We added 10. `mut_value`: {:?}", m);
-        },
+        }
     }
 
     let ref _is_a_reference = 3;
