@@ -16,6 +16,7 @@ mod ch10_2_struct_visibility;
 mod ch13_1_dead_code;
 mod ch13_3_cfg;
 mod ch14_4_bounds;
+mod ch14_5_multiple_bounds;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -33,6 +34,7 @@ use ch10_2_struct_visibility as sv;
 use ch13_1_dead_code as dead_code;
 use ch13_3_cfg as cfg;
 use ch14_4_bounds as bounds;
+use ch14_5_multiple_bounds as multiple_bounds;
 
 fn main() {
     // hello_world::run();
@@ -49,5 +51,6 @@ fn main() {
     // hof::run();
     // sv::run();
     // dead_code::run();
-    bounds::run();
+    // bounds::run();
+    multiple_bounds::run();
 }
