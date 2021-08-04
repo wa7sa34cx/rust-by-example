@@ -1,5 +1,3 @@
-#![allow(dead_code)]
-
 #[derive(Debug)]
 struct Point {
     x: i32,
@@ -9,7 +7,7 @@ struct Point {
 pub fn run() {
     let mut point = Point { x: 0, y: 0 };
 
-    let borrowed_point = &point;
+    let _borrowed_point = &point;
 
     let mutable_borrow = &mut point;
     mutable_borrow.y = 2;

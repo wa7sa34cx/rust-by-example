@@ -21,6 +21,7 @@ mod ch15_2_2_partial_moves;
 mod ch15_3_2_aliasing;
 mod ch15_3_3_ref_pattern;
 mod ch15_4_lifetimes;
+mod ch16_sheep;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -43,6 +44,7 @@ use ch15_2_2_partial_moves as partial_moves;
 use ch15_3_2_aliasing as aliasing;
 use ch15_3_3_ref_pattern as ref_pattern;
 use ch15_4_lifetimes as lifetimes;
+use ch16_sheep as sheep;
 
 fn main() {
     // hello_world::run();
@@ -64,5 +66,6 @@ fn main() {
     // partial_moves::run();
     // aliasing::run();
     // ref_pattern::run();
-    lifetimes::run();
+    // lifetimes::run();
+    sheep::run();
 }
