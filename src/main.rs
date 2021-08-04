@@ -18,6 +18,7 @@ mod ch13_3_cfg;
 mod ch14_4_bounds;
 mod ch14_5_multiple_bounds;
 mod ch15_2_2_partial_moves;
+mod ch15_3_2_aliasing;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -37,6 +38,7 @@ use ch13_3_cfg as cfg;
 use ch14_4_bounds as bounds;
 use ch14_5_multiple_bounds as multiple_bounds;
 use ch15_2_2_partial_moves as partial_moves;
+use ch15_3_2_aliasing as aliasing;
 
 fn main() {
     // hello_world::run();
@@ -55,5 +57,6 @@ fn main() {
     // dead_code::run();
     // bounds::run();
     // multiple_bounds::run();
-    partial_moves::run();
+    // partial_moves::run();
+    aliasing::run();
 }
