@@ -22,6 +22,8 @@ mod ch15_3_2_aliasing;
 mod ch15_3_3_ref_pattern;
 mod ch15_4_lifetimes;
 mod ch16_2_dyn_traints;
+mod ch16_3_otherloading;
+mod ch16_5_fibonacci;
 mod ch16_sheep;
 
 use ch01_0_hello_world as hello_world;
@@ -46,6 +48,8 @@ use ch15_3_2_aliasing as aliasing;
 use ch15_3_3_ref_pattern as ref_pattern;
 use ch15_4_lifetimes as lifetimes;
 use ch16_2_dyn_traints as dyn_traints;
+use ch16_3_otherloading as otherloading;
+use ch16_5_fibonacci as fibonacci;
 use ch16_sheep as sheep;
 
 fn main() {
@@ -70,5 +74,7 @@ fn main() {
     // ref_pattern::run();
     // lifetimes::run();
     // sheep::run();
-    dyn_traints::run();
+    // dyn_traints::run();
+    // otherloading::run();
+    fibonacci::run();
 }
