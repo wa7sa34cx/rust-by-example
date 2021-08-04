@@ -20,6 +20,7 @@ mod ch14_5_multiple_bounds;
 mod ch15_2_2_partial_moves;
 mod ch15_3_2_aliasing;
 mod ch15_3_3_ref_pattern;
+mod ch15_4_lifetimes;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -41,6 +42,7 @@ use ch14_5_multiple_bounds as multiple_bounds;
 use ch15_2_2_partial_moves as partial_moves;
 use ch15_3_2_aliasing as aliasing;
 use ch15_3_3_ref_pattern as ref_pattern;
+use ch15_4_lifetimes as lifetimes;
 
 fn main() {
     // hello_world::run();
@@ -61,5 +63,6 @@ fn main() {
     // multiple_bounds::run();
     // partial_moves::run();
     // aliasing::run();
-    ref_pattern::run();
+    // ref_pattern::run();
+    lifetimes::run();
 }
