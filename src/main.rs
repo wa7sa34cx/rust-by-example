@@ -24,6 +24,7 @@ mod ch15_4_lifetimes;
 mod ch16_2_dyn_traints;
 mod ch16_3_otherloading;
 mod ch16_5_fibonacci;
+mod ch16_6_implementation;
 mod ch16_sheep;
 
 use ch01_0_hello_world as hello_world;
@@ -50,6 +51,7 @@ use ch15_4_lifetimes as lifetimes;
 use ch16_2_dyn_traints as dyn_traints;
 use ch16_3_otherloading as otherloading;
 use ch16_5_fibonacci as fibonacci;
+use ch16_6_implementation as implementation;
 use ch16_sheep as sheep;
 
 fn main() {
@@ -76,5 +78,6 @@ fn main() {
     // sheep::run();
     // dyn_traints::run();
     // otherloading::run();
-    fibonacci::run();
+    // fibonacci::run();
+    implementation::run();
 }
