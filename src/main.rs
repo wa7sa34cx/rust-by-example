@@ -28,7 +28,9 @@ mod ch16_6_implementation;
 mod ch16_sheep;
 mod ch17_1_1_designators;
 mod ch17_1_2_macro_overload;
+mod ch17_1_3_macro_repeat;
 mod ch17_macro_rules;
+mod ch18_2_3_and_then;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -58,7 +60,9 @@ use ch16_6_implementation as implementation;
 use ch16_sheep as sheep;
 use ch17_1_1_designators as designators;
 use ch17_1_2_macro_overload as macro_overload;
+use ch17_1_3_macro_repeat as macro_repeat;
 use ch17_macro_rules as macro_rules;
+use ch18_2_3_and_then as and_then;
 
 fn main() {
     // hello_world::run();
@@ -88,5 +92,7 @@ fn main() {
     // implementation::run();
     // macro_rules::run();
     // designators::run();
-    macro_overload::run();
+    // macro_overload::run();
+    // macro_repeat::run();
+    and_then::run();
 }
