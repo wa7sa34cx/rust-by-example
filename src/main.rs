@@ -31,6 +31,8 @@ mod ch17_1_2_macro_overload;
 mod ch17_1_3_macro_repeat;
 mod ch17_macro_rules;
 mod ch18_2_3_and_then;
+mod ch18_4_5_wrapping_errors;
+mod ch18_5_iterating_over_results;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -63,6 +65,8 @@ use ch17_1_2_macro_overload as macro_overload;
 use ch17_1_3_macro_repeat as macro_repeat;
 use ch17_macro_rules as macro_rules;
 use ch18_2_3_and_then as and_then;
+use ch18_4_5_wrapping_errors as wrapping_errors;
+use ch18_5_iterating_over_results as iterating_over_results;
 
 fn main() {
     // hello_world::run();
@@ -94,5 +98,7 @@ fn main() {
     // designators::run();
     // macro_overload::run();
     // macro_repeat::run();
-    and_then::run();
+    // and_then::run();
+    // wrapping_errors::run();
+    iterating_over_results::run();
 }
