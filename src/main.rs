@@ -33,6 +33,9 @@ mod ch17_macro_rules;
 mod ch18_2_3_and_then;
 mod ch18_4_5_wrapping_errors;
 mod ch18_5_iterating_over_results;
+mod ch19_3_long_string;
+mod ch19_7_hashmap;
+mod ch20_1_threads;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -67,6 +70,9 @@ use ch17_macro_rules as macro_rules;
 use ch18_2_3_and_then as and_then;
 use ch18_4_5_wrapping_errors as wrapping_errors;
 use ch18_5_iterating_over_results as iterating_over_results;
+use ch19_3_long_string as long_string;
+use ch19_7_hashmap as hashmap;
+use ch20_1_threads as threads;
 
 fn main() {
     // hello_world::run();
@@ -100,5 +106,8 @@ fn main() {
     // macro_repeat::run();
     // and_then::run();
     // wrapping_errors::run();
-    iterating_over_results::run();
+    // iterating_over_results::run();
+    // long_string::run();
+    // hashmap::run();
+    threads::run();
 }
