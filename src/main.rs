@@ -40,6 +40,7 @@ mod ch20_1_threads;
 mod ch20_2_channels;
 mod ch20_3_path;
 mod ch20_5_processes;
+mod ch20_6_fs;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -81,6 +82,7 @@ use ch20_1_threads as threads;
 use ch20_2_channels as channels;
 use ch20_3_path as path;
 use ch20_5_processes as processes;
+use ch20_6_fs as fs;
 
 fn main() {
     // hello_world::run();
@@ -121,5 +123,6 @@ fn main() {
     // map_reduce::run();
     // channels::run();
     // path::run();
-    processes::run();
+    // processes::run();
+    fs::run().unwrap();
 }
