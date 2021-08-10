@@ -35,10 +35,11 @@ mod ch18_4_5_wrapping_errors;
 mod ch18_5_iterating_over_results;
 mod ch19_3_long_string;
 mod ch19_7_hashmap;
-mod ch20_1_threads;
 mod ch20_1_1_map_reduce;
+mod ch20_1_threads;
 mod ch20_2_channels;
 mod ch20_3_path;
+mod ch20_5_processes;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -75,10 +76,11 @@ use ch18_4_5_wrapping_errors as wrapping_errors;
 use ch18_5_iterating_over_results as iterating_over_results;
 use ch19_3_long_string as long_string;
 use ch19_7_hashmap as hashmap;
-use ch20_1_threads as threads;
 use ch20_1_1_map_reduce as map_reduce;
+use ch20_1_threads as threads;
 use ch20_2_channels as channels;
 use ch20_3_path as path;
+use ch20_5_processes as processes;
 
 fn main() {
     // hello_world::run();
@@ -118,5 +120,6 @@ fn main() {
     // threads::run();
     // map_reduce::run();
     // channels::run();
-    path::run();
+    // path::run();
+    processes::run();
 }

@@ -7,10 +7,7 @@ pub fn run() {
     println!("Results: {:?}", numbers);
 
     let strings = vec!["tofu", "93", "18"];
-    let numbers: Result<Vec<_>, _> = strings
-        .into_iter()
-        .map(|s| s.parse::<i32>())
-        .collect();
+    let numbers: Result<Vec<_>, _> = strings.into_iter().map(|s| s.parse::<i32>()).collect();
     println!("Results: {:?}", numbers);
 
     let strings = vec!["tofu", "93", "18"];
@@ -19,7 +16,7 @@ pub fn run() {
         .map(|s| s.parse::<i32>())
         .partition(Result::is_ok);
     // let numbers: Vec<_> = numbers.into_iter().map(Result::unwrap).collect();
-    // let errors: Vec<_> = errors.into_iter().map(Result::unwrap_err).collect();    
+    // let errors: Vec<_> = errors.into_iter().map(Result::unwrap_err).collect();
     println!("Numbers: {:?}", numbers);
     println!("Errors: {:?}", errors);
 }

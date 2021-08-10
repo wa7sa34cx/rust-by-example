@@ -1,14 +1,13 @@
 use std::path::Path;
 
+// My own simple file read based database
+#[derive(Debug)]
+pub struct Db {
+    file: &'static Path,
+}
+
 pub fn run() {
-    let path = Path::new("/etc");
-    println!("{}", path.display());
+    let path = Path::new("hello.txt");
 
-    let new_path = path.join("hosts");
-    println!("{}", new_path.display());
-
-    match new_path.to_str() {
-        None => panic!("new path is not a valid UTF-8 sequence"),
-        Some(s) => println!("new path is {}", s),
-    }
+    let _db = Db { file: path };
 }
