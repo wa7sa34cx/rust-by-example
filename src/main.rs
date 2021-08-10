@@ -36,6 +36,8 @@ mod ch18_5_iterating_over_results;
 mod ch19_3_long_string;
 mod ch19_7_hashmap;
 mod ch20_1_threads;
+mod ch20_1_1_map_reduce;
+mod ch20_2_channels;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -73,6 +75,8 @@ use ch18_5_iterating_over_results as iterating_over_results;
 use ch19_3_long_string as long_string;
 use ch19_7_hashmap as hashmap;
 use ch20_1_threads as threads;
+use ch20_1_1_map_reduce as map_reduce;
+use ch20_2_channels as channels;
 
 fn main() {
     // hello_world::run();
@@ -109,5 +113,7 @@ fn main() {
     // iterating_over_results::run();
     // long_string::run();
     // hashmap::run();
-    threads::run();
+    // threads::run();
+    // map_reduce::run();
+    channels::run();
 }
