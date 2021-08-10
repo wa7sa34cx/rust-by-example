@@ -38,6 +38,7 @@ mod ch19_7_hashmap;
 mod ch20_1_threads;
 mod ch20_1_1_map_reduce;
 mod ch20_2_channels;
+mod ch20_3_path;
 
 use ch01_0_hello_world as hello_world;
 use ch01_2_2_1_list as list;
@@ -77,6 +78,7 @@ use ch19_7_hashmap as hashmap;
 use ch20_1_threads as threads;
 use ch20_1_1_map_reduce as map_reduce;
 use ch20_2_channels as channels;
+use ch20_3_path as path;
 
 fn main() {
     // hello_world::run();
@@ -115,5 +117,6 @@ fn main() {
     // hashmap::run();
     // threads::run();
     // map_reduce::run();
-    channels::run();
+    // channels::run();
+    path::run();
 }
